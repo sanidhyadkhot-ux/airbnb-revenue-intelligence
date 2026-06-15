@@ -1,10 +1,10 @@
 # Airbnb Revenue Intelligence Platform
 
-A recruiter-focused SQL + Streamlit analytics project built from an Airbnb Western Australia listings dataset. This project upgrades a beginner SQL case study into a commercial revenue intelligence platform for pricing, host performance, suburb opportunity analysis, and portfolio storytelling.
+A SQL + analytics project built from an Airbnb Western Australia listings dataset. This project upgrades a beginner SQL case study into a commercial revenue intelligence platform for pricing, host performance, suburb opportunity analysis, and storytelling.
 
 ## Business Problem
 
-Airbnb operators and marketplace analysts need to understand where revenue is concentrated, which suburbs are becoming competitive, how price relates to guest ratings, and where premium listings can grow without hurting occupancy.
+Airbnb operators and marketplace analysts need to understand where revenue is concentrated, which suburbs are becoming competitive, how price relates to guest ratings, and where listings can grow without hurting occupancy.
 
 This project answers those questions using SQL modelling, KPI views, advanced analysis, and an interactive Streamlit dashboard.
 
@@ -101,10 +101,6 @@ streamlit run streamlit_app/app.py
 - Host concentration highlights competitive markets where individual operators need stronger differentiation.
 - The opportunity index helps identify listings and suburbs with strong quality signals and revenue potential.
 
-## Portfolio Positioning
-
-This project is designed for Data Analyst, BI Analyst, Product Analyst, Commercial Analyst, and Analytics Engineer applications. It shows that I can go beyond basic SQL queries and turn marketplace data into executive-ready commercial recommendations.
-
 ## Tech Stack
 
 - SQL / PostgreSQL style queries
@@ -112,23 +108,7 @@ This project is designed for Data Analyst, BI Analyst, Product Analyst, Commerci
 - Streamlit
 - Plotly
 - Matplotlib
-- GitHub portfolio documentation
 
 
-## Repository Size Note
 
-This GitHub version is intentionally kept under **25 MB**. It includes a sample dataset suitable for running the Streamlit demo and reviewing the SQL workflow. The full raw dataset is excluded to keep the project lightweight and recruiter-friendly.
-
-## Run the Streamlit Demo
-
-```bash
-pip install -r requirements.txt
-streamlit run streamlit_app/app.py
-```
-
-## Included Dashboard Screenshots
-
-- Executive overview dashboard
-- Pricing intelligence dashboard
-- Location heatmap dashboard
 
